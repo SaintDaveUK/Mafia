@@ -13,12 +13,13 @@ public class Title : MonoBehaviour {
     ///<summary>Returns the Proper Noun if there is one, else it returns the text "NULL".</summary>
     public string GetNoun()
     {
-        if(string.IsNullOrEmpty(noun))
+        if(!string.IsNullOrEmpty(noun))
         {
             return noun;
         }
         else
         {
+            Debug.LogWarning(name + " does not have a Noun!");
             return "NULL";
         }
     }
@@ -26,7 +27,7 @@ public class Title : MonoBehaviour {
     ///<summary>Returns the Adjective if there is one, else it returns the Proper Noun.</summary>
     public string GetAdj()
     {
-        if(string.IsNullOrEmpty(adj))
+        if(!string.IsNullOrEmpty(adj))
         {
             return adj;
         }
