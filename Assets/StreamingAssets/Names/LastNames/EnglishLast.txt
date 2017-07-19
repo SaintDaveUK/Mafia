@@ -115,10 +115,10 @@ Bayntin
 Bayntun
 Bazeley
 Bazely
-Beanor
 Beaker
 Beale
 Bean
+Beanor
 Beard
 Beasant
 Beasley
@@ -629,7 +629,6 @@ Durham
 Dutch
 Dutton
 Duval
-Dove
 Dyer
 Eager
 Eastman
@@ -680,12 +679,12 @@ Falkland
 Falmouth
 Fancourt
 Fane
-Paris
 Farmer
 Farnall
 Farrington
 Faulkner
 Faulknor
+Fawkes
 Fayerman
 Featherstone
 Fegan
@@ -947,7 +946,6 @@ Heathcote
 Heddington
 Hellard
 Helpman
-Helpman
 Heming
 Hemstead
 Henderson
@@ -982,7 +980,6 @@ Hillyar
 Hilton
 Hindmarsh
 Hinton
-Hird
 Hird
 Hire
 Hislop
@@ -1188,9 +1185,9 @@ Leach
 Leaver
 Leavey
 Lecale
+LeChuck,1
 Lecky
 Lee
-LeChuck,1
 Leef
 Legard
 Leggatt
@@ -1235,9 +1232,9 @@ Long
 Longcroft
 Loring
 Losack
-Louted
 Loud
 Louis
+Louted
 Love
 Lovell
 Lowcay
@@ -1500,6 +1497,7 @@ Palk
 Palmer
 Pamp
 Pardoe
+Paris
 Parish
 Parke
 Parker
@@ -1624,10 +1622,10 @@ Prior
 Pritchard
 Proby
 Probyn
+Procter
 Provost
 Prowett
 Prowse
-Procter
 Prynn
 Puget
 Pulling
@@ -1864,7 +1862,6 @@ Sproule
 Spry
 Squarey
 Squire
-Stirling
 Stackpoole
 Stagg
 Staines
@@ -1890,6 +1887,7 @@ Stevenson
 Steventon
 Stewart
 Stiles
+Stirling
 Stockham
 Stoddart
 Stokes

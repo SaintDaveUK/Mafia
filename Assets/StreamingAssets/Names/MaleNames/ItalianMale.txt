@@ -1,3 +1,15 @@
+Antonio,Tony
+Anthony,Tony
+Carlo,Carl
+Francisco,Frank,Franco,Franko,Frankie,Franky
+Frederico,Fredo,Fred,Freddy,Freddie
 Giuseppe,Joey,Joe
 Joseph,Joey,Joe
+Oreste
+Santino,Sonny
+Michael,Mikey,Mike
+Milo
+Victor,Vick,Vic
+Vincent,Vinnie
+Vincenzo,Vinnie
 Vito
