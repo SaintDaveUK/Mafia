@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Culture : MonoBehaviour {
 
+    public string adjective; //"English"
+    public Color color;
+
 	// Use this for initialization
 	void Start () {
 		
