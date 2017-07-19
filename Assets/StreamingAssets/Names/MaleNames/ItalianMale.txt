@@ -1,3 +1,4 @@
+Alfredo,Al,Alfie,Alf,Fredo
 Antonio,Tony
 Anthony,Tony
 Carlo,Carl
@@ -5,6 +6,7 @@ Francisco,Frank,Franco,Franko,Frankie,Franky
 Frederico,Fredo,Fred,Freddy,Freddie
 Giuseppe,Joey,Joe
 Joseph,Joey,Joe
+James,Jim,Jimmy,Jimmie
 Oreste
 Santino,Sonny
 Michael,Mikey,Mike
