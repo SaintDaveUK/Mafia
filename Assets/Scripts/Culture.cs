@@ -6,9 +6,11 @@ public class Culture : MonoBehaviour {
 
     public string adjective; //"English"
     public Color color;
+    public List<Culture> relatedCultures = new List<Culture>();
 
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
