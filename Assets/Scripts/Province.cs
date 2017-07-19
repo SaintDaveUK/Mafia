@@ -11,7 +11,12 @@ public class Province : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		
+        //color the province as the culture
+        if(culture)
+        {
+            foreach (Transform child in transform)
+                child.GetComponent<Renderer>().material.color = culture.color;
+        }
 	}
 	
 	// Update is called once per frame
