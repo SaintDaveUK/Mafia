@@ -10,6 +10,17 @@ public class Title : MonoBehaviour {
     ///<summary>The Character who rules the Title.</summary>
     public Character boss;
 
+    public bool exists;
+
+    public static List<Title> titles = new List<Title>();
+
+    void Start()
+    {
+        //move in the heirarchy
+        transform.parent = Data.titles;
+    }
+
+
     ///<summary>Returns the Proper Noun if there is one, else it returns the text "NULL".</summary>
     public string GetNoun()
     {
@@ -35,6 +46,22 @@ public class Title : MonoBehaviour {
         {
             return GetNoun();
         }
+    }
+
+    void Awake()
+    {
+        titles.Add(this);
+    }
+
+
+
+    static public void Init()
+    {
+        //Title[] newTitles = FindObjectsOfType(typeof(Title)) as Title[];
+        //foreach (Title title in newTitles)
+        //{
+        //    titles.Add(title);
+        //}
     }
 
 }

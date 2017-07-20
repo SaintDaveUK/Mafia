@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4351151467537304}
   - component: {fileID: 114094082344253966}
   m_Layer: 0
-  m_Name: _Province
+  m_Name: '#Province'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51,3 +51,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a3c7b123d667ae48945100db1423d86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  title: {fileID: 0}
+  culture: {fileID: 0}

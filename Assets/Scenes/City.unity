@@ -201,6 +201,7 @@ MonoBehaviour:
   noun: Staten Island
   adj: 
   boss: {fileID: 0}
+  exists: 1
 --- !u!1 &435331198
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,7 +316,7 @@ Transform:
   m_Children:
   - {fileID: 631150922}
   m_Father: {fileID: 1831349891}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &570669485
 Transform:
@@ -527,6 +528,7 @@ MonoBehaviour:
   noun: New York
   adj: 
   boss: {fileID: 0}
+  exists: 0
 --- !u!1 &670207894
 GameObject:
   m_ObjectHideFlags: 0
@@ -784,6 +786,46 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 721369558}
   m_Script: {fileID: 11500000, guid: 3a9ad544c0bf226408bd92286359f282, type: 3}
+--- !u!1 &725000870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 725000872}
+  - component: {fileID: 725000871}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &725000871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 725000870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74aee7aa78967aa4aac46220c90d6cfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &725000872
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 725000870}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &731553397
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,6 +945,7 @@ MonoBehaviour:
   noun: Queens
   adj: 
   boss: {fileID: 0}
+  exists: 1
 --- !u!1 &1014671072
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,7 +977,7 @@ Transform:
   - {fileID: 578159093}
   - {fileID: 1444268566}
   m_Father: {fileID: 1831349891}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1171039821
 Transform:
@@ -982,6 +1025,7 @@ MonoBehaviour:
   noun: Brooklyn
   adj: 
   boss: {fileID: 0}
+  exists: 1
 --- !u!4 &1243786206
 Transform:
   m_ObjectHideFlags: 0
@@ -1028,6 +1072,7 @@ MonoBehaviour:
   noun: Bronx
   adj: 
   boss: {fileID: 0}
+  exists: 1
 --- !u!1 &1361108107
 GameObject:
   m_ObjectHideFlags: 0
@@ -1356,7 +1401,7 @@ Transform:
   - {fileID: 2016527797}
   - {fileID: 1935732454}
   m_Father: {fileID: 1831349891}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1736506362
 GameObject:
@@ -1390,6 +1435,7 @@ MonoBehaviour:
   noun: Manhattan
   adj: 
   boss: {fileID: 0}
+  exists: 1
 --- !u!1 &1793718424
 GameObject:
   m_ObjectHideFlags: 0
@@ -1485,6 +1531,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1831349891}
+  - component: {fileID: 1831349892}
   m_Layer: 0
   m_Name: GameData
   m_TagString: Untagged
@@ -1502,12 +1549,24 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 544125954}
-  - {fileID: 1014671073}
+  - {fileID: 1983717286}
   - {fileID: 1516304505}
+  - {fileID: 1014671073}
+  - {fileID: 544125954}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1831349892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1831349890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9acb3d59460088d4e9fb45f5d597355b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1935732453
 Prefab:
   m_ObjectHideFlags: 0
@@ -1595,6 +1654,34 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1935732453}
   m_Script: {fileID: 11500000, guid: 3a9ad544c0bf226408bd92286359f282, type: 3}
+--- !u!1 &1983717285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1983717286}
+  m_Layer: 0
+  m_Name: Characters
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1983717286
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1983717285}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.3175697, y: -0.95777273, z: 1.9880219}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1831349891}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2016527796
 Prefab:
   m_ObjectHideFlags: 0

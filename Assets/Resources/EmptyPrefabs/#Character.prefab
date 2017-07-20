@@ -9,47 +9,49 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1866506042852022}
+  m_RootGameObject: {fileID: 1404036416227094}
   m_IsPrefabParent: 1
---- !u!1 &1866506042852022
+--- !u!1 &1404036416227094
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4119124191177254}
-  - component: {fileID: 114704745064992986}
+  - component: {fileID: 4312688488144776}
+  - component: {fileID: 114168593878973768}
   m_Layer: 0
-  m_Name: _Culture
+  m_Name: '#Character'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4119124191177254
+--- !u!4 &4312688488144776
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1866506042852022}
+  m_GameObject: {fileID: 1404036416227094}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.3175697, y: -0.95777273, z: 1.9880219}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114704745064992986
+--- !u!114 &114168593878973768
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1866506042852022}
+  m_GameObject: {fileID: 1404036416227094}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a9ad544c0bf226408bd92286359f282, type: 3}
+  m_Script: {fileID: 11500000, guid: 5355403e79b41494392027f1acb4d835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  adjective: Culture
-  color: {r: 0.47794116, g: 0.47794116, b: 0.47794116, a: 1}
+  firstNames: []
+  lastNames: []
+  culture: {fileID: 0}
+  isFemale: 0

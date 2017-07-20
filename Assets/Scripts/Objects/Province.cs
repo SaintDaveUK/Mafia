@@ -10,9 +10,13 @@ public class Province : MonoBehaviour {
     public Culture culture;
 
     // Use this for initialization
-    void Start () {
+    void Start ()
+    {
+        //move in the heirarchy
+        transform.parent = Data.provinces;
+
         //color the province as the culture
-        if(culture)
+        if (culture)
         {
             foreach (Transform child in transform)
                 child.GetComponent<Renderer>().material.color = culture.color;
@@ -23,4 +27,10 @@ public class Province : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    void Awake ()
+    {
+
+
+    }
 }
