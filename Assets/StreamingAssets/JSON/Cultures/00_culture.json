@@ -1,0 +1,69 @@
+{
+	"cultures": [
+	
+		{
+			"id":"cul_american",
+			
+			"culturalNation": [ "America" ],
+			"adjective": [ "American" ],
+			"nounMale": [ "American" ],
+			"nounFemale": [ "American" ],
+			"nounPlural": [ "Americans"],
+			
+			"hexColor":["3C3B6E"]
+			
+			"maleNames":"EnglishMale",
+			"femaleNames":"EnglishFemale",
+			"lastNames":"EnglishLast"
+		},
+		
+		{
+			"id":"cul_sicilian",
+			"similarCultures": [ "cul_italian" ],
+			
+			"culturalNation": [ "Sicily" ],
+			"adjective": [ "Sicilian" ],
+			"nounMale": [ "Sicilian" ],
+			"nounFemale": [ "Sicilian" ],
+			"nounPlural": [ "Sicilians"],
+			
+			"hexColor":["FFCE00FF"]
+			
+			"maleNames":"ItalianMale",
+			"femaleNames":"EnglishFemale",
+			"lastNames":"ItalianLast"			
+		},
+		
+		{
+			"id":"cul_italian",
+			"similarCultures": [ "cul_sicilian" ],
+			
+			"culturalNation": [ "Italy" ],
+			"adjective": [ "Italian" ],
+			"nounMale": [ "Italian" ],
+			"nounFemale": [ "Italian" ],
+			"nounPlural": [ "Italians"],
+			
+			
+			"maleNames":"ItalianMale",
+			"femaleNames":"EnglishFemale",
+			"lastNames":"ItalianLast"
+		},
+		
+		{
+			"id":"cul_irish",
+			
+			"culturalNation": [ "Ireland" ],
+			"adjective": [ "Irish" ],
+			"nounMale": [ "Irishman" ],
+			"nounFemale": [ "Irishwoman" ],
+			"nounPlural": [ "Irishmen", "Irish"],
+			
+			"hexColor":["169B62"]
+			
+			"maleNames":"EnglishMale",
+			"femaleNames":"EnglishFemale",
+			"lastNames":"IrishLast"
+		}
+	]
+}
