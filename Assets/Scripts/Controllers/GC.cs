@@ -4,12 +4,19 @@ using UnityEngine;
 
 /// <summary>Game Controller</summary>
 public class GC : MonoBehaviour {
+    
 
+    void Awake()
+    {
+    }
 	// Use this for initialization
 	void Start () {
         LoadData();
 
         Prefabs.Init();
+
+        InitNames();
+
         Title.Init();
         Culture.Init();
 
@@ -24,6 +31,11 @@ public class GC : MonoBehaviour {
 	}
 
     void LoadData()
+    {
+        LoadNames();
+    }
+
+    void LoadNames()
     {
 
     }
@@ -46,5 +58,12 @@ public class GC : MonoBehaviour {
             }
 
         }
+    }
+
+    void InitNames()
+    {
+        GameObject go = Instantiate(Prefabs.names);
+        Names names = go.GetComponent<Names>();
+        names.Init();
     }
 }
