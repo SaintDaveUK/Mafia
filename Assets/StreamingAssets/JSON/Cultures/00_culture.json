@@ -10,7 +10,7 @@
 			"nounFemale": [ "American" ],
 			"nounPlural": [ "Americans"],
 			
-			"hexColor":["3C3B6E"]
+			"hexColor":["3C3B6E"],
 			
 			"maleNames":"EnglishMale",
 			"femaleNames":"EnglishFemale",
@@ -27,7 +27,7 @@
 			"nounFemale": [ "Sicilian" ],
 			"nounPlural": [ "Sicilians"],
 			
-			"hexColor":["FFCE00FF"]
+			"hexColor":["FFCE00"],
 			
 			"maleNames":"ItalianMale",
 			"femaleNames":"EnglishFemale",
@@ -44,6 +44,7 @@
 			"nounFemale": [ "Italian" ],
 			"nounPlural": [ "Italians"],
 			
+			"hexColor":["CE2B37"],
 			
 			"maleNames":"ItalianMale",
 			"femaleNames":"EnglishFemale",
@@ -59,7 +60,7 @@
 			"nounFemale": [ "Irishwoman" ],
 			"nounPlural": [ "Irishmen", "Irish"],
 			
-			"hexColor":["169B62"]
+			"hexColor":["169B62"],
 			
 			"maleNames":"EnglishMale",
 			"femaleNames":"EnglishFemale",
